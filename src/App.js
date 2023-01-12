@@ -1,24 +1,25 @@
-import logo from './logo.svg';
+import Tdl from './Components/tdl.png';
 import './App.css';
+import { Header } from './Components/Header';
+import { ToDoInput } from './Components/ToDoInput';
+import { Body } from './Components/Body';
+import { Footer } from './Components/Footer';
+import Test from './q';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className="Main_Container">
+      <Header/>
+      <img className="tdl" src={Tdl} alt='0'/>
+      <ToDoInput/>
+       <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+      <Body/>
+      <Footer/>
     </div>
+    <Test/>
+    </>
   );
 }
 
